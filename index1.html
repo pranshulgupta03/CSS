@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            height: 340px;
+            width: 300px;
+            border: 2px solid black;
+            margin: 15px 38px;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        .img{
+            width: 100%;
+            height: 60%;
+        }
+
+        .details{
+            text-align: center;
+            height: 35%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .details h3, h4, h5{
+            font-size: 18px;
+            
+        }
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+
+        .navbar{
+            padding: 15px 30px;
+            height: 80px;
+            width: 100%;
+            font-size: 20px;
+            color: white;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navList{
+            display: flex;
+            width: 20%;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navList ul{
+            text-decoration: none;
+        }
+
+        .contact-form{
+            height: 300px;
+            width: 100%;
+            display: flex;
+            color: white;
+            background-color: black;
+            border: 2px solid white;
+        }
+
+        .contact-img{
+            height: 100%;
+            width: 50%;
+        }
+
+        .contact-img img{
+            height: 100%;
+            width: 100%;
+        }
+
+        .contact-details{
+            width: 50%;
+            height: 100%;
+            padding: 20px 40px;
+        }
+
+        .contact-details button{
+            border-radius: 20px;
+            padding: 5px;
+            font-size: 16px;
+            width: 100px;
+        }
+
+        footer{
+            height: 80px;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+            background-color: black;
+            color: white;
+        }
+
+        footer h2{
+            font-size: 22px;
+        }  
+
+        footer h3{
+            margin-top: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            Logo
+        </div>
+        <div class="navList">
+            <h4>Home</h4>
+            <h4>Wishlist</h4>
+            <h4>Cart</h4>
+        </div>
+    </div>
+    
+    <div class="box">
+        <div class="img">
+            <img src="https://img.freepik.com/free-psd/isolated-white-t-shirt-front-view_125540-1194.jpg" alt="">
+        </div>
+        <div class="details">
+            <h3>Title: T-Shirts</h3>
+            <h4>Price : 500</h4>
+            <h5>Descriptions</h5>
+        </div>
+    </div>
+    <div class="box">
+        <div class="img">
+            <img src="https://img.freepik.com/free-psd/isolated-white-t-shirt-front-view_125540-1194.jpg" alt="">
+        </div>
+        <div class="details">
+            <h3>Title: T-Shirts</h3>
+            <h4>Price : 500</h4>
+            <h5>Descriptions</h5>
+        </div>
+    </div>
+    <div class="box">
+        <div class="img">
+            <img src="https://img.freepik.com/free-psd/isolated-white-t-shirt-front-view_125540-1194.jpg" alt="">
+        </div>
+        <div class="details">
+            <h3>Title: T-Shirts</h3>
+            <h4>Price : 500</h4>
+            <h5>Descriptions</h5>
+        </div>
+    </div>
+    <div class="box">
+        <div class="img">
+            <img src="https://img.freepik.com/free-psd/isolated-white-t-shirt-front-view_125540-1194.jpg" alt="">
+        </div>
+        <div class="details">
+            <h3>Title: T-Shirts</h3>
+            <h4>Price : 500</h4>
+            <h5>Descriptions</h5>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <div class="contact-img">
+            <img src="https://reputationtoday.in/wp-content/uploads/2020/04/4d8dd-students-in-community.001.png" alt="">
+        </div>
+        <div class="contact-details">
+            <form action="">
+                <label for="name">Name: </label>
+                <input type="text" placeholder="Enter your name"> <br><br>
+                <label for="email">Email: </label>
+                <input type="email" placeholder="Enter your email"><br><br>
+                <label for="mobile">Mobile: </label>
+                <input type="mobile" placeholder="Enter your mobile no."><br><br>
+                <label for="">Enter your message here: </label> <br>
+                <textarea name="" id="" cols="40" rows="7"></textarea> <br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <h2>Contact Us : abc@company.org</h2>
+        <h3>
+            Copyright &copy; All rights reserved by ABC Company
+        </h3>
+    </footer>
+
+</body>
+</html>
