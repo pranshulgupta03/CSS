@@ -239,11 +239,12 @@
     border-right: none;
     border-bottom: 1px solid black;
     outline: none;
+    padding: 0 5px;
 
 }
 
 #contact input::placeholder{
-    padding: 12px;
+    padding: 5px;
 }
 
 #contact input:focus{
