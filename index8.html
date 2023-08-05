@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container {
+            display: grid;
+            height: 95vh;
+            border: 2px solid black;
+            /* grid-template-columns: 1fr 2fr 2fr 1fr; */
+            /* grid-template-columns: repeat(auto, 4); */
+            grid-template-rows: repeat(auto, 4);
+        }
+
+        .box{
+            height: 165px;
+            border: 2px solid red;
+        }
+
+        #box2{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+        }
+
+        .innerbox{
+            height: 100%;
+            border: 2px dashed blue;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box"></div>
+        <div class="box" id="box2">
+            <div class="innerbox"></div>
+            <div class="innerbox"></div>
+        </div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>
